@@ -15,6 +15,11 @@
     <string name="hint_nota3">Nota 3</string>
     <string name="btn_calcular_promedio">Calcular</string>
     <string name="resultado_promedio">El promedio es: %.2f</string>
+    <string name="label_nombre">Nombre del estudiante</string>
+    <string name="hint_nota4">Nota 4</string>
+    <string name="hint_nota5">Nota 5</string>
+    <string name="label_promedio">Promedio:</string>
+    <string name="label_estado">Estado:</string>
 
     <!-- Pantalla Salario -->
     <string name="titulo_salario">Descuentos al Salario</string>
