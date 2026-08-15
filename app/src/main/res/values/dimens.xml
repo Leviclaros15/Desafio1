@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_pantalla">24dp</dimen>
+    <dimen name="margen_grande">16dp</dimen>
+    <dimen name="margen_mediano">12dp</dimen>
+    <dimen name="margen_pequeno">8dp</dimen>
+    <dimen name="texto_titulo">20sp</dimen>
+    <dimen name="texto_normal">16sp</dimen>
+    <dimen name="texto_resultado">18sp</dimen>
+</resources>
