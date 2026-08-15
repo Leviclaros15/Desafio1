@@ -5,16 +5,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="24dp"
+    android:padding="@dimen/padding_pantalla"
     tools:context=".SalarioActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/titulo_salario"
-        android:textSize="20sp"
+        android:textSize="@dimen/texto_titulo"
         android:textStyle="bold"
-        android:layout_marginBottom="24dp" />
+        android:layout_marginBottom="@dimen/margen_grande" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_nombre_empleado" />
+
+    <EditText
+        android:id="@+id/nombreEmpleadoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_nombre_empleado"
+        android:inputType="textPersonName"
+        android:layout_marginBottom="@dimen/margen_grande" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -26,7 +39,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="numberDecimal"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="@dimen/margen_grande" />
 
     <Button
         android:id="@+id/calcularSalarioBtn"
@@ -34,19 +47,57 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="@string/btn_calcular_salario"
-        android:layout_marginBottom="16dp" />
+        android:layout_marginBottom="@dimen/margen_grande" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/label_descuentos"
+        android:text="@string/label_salario_bruto"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/descuentosTextView"
+        android:id="@+id/salarioBrutoTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp" />
+        android:textSize="@dimen/texto_resultado"
+        android:textColor="@color/salario_bruto_color"
+        android:layout_marginBottom="@dimen/margen_mediano" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_renta"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/rentaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margen_mediano" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_afp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/afpTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margen_mediano" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/label_isss"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/isssTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margen_mediano" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -57,14 +108,16 @@
     <TextView
         android:id="@+id/salarioNetoTextView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/texto_resultado"
+        android:textColor="@color/salario_neto_color" />
 
     <Button
         android:id="@+id/volverBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="@dimen/margen_grande"
         android:text="@string/btn_volver" />
 
 </LinearLayout>
