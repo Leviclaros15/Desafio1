@@ -8,35 +8,22 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-class MainActivity : AppCompatActivity() {
+class PromedioActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_promedio)
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
-
-
         }
-        val btnPromedio = findViewById<Button>(R.id.promedioBtn)
-        btnPromedio.setOnClickListener {
-            val intent = Intent(this, PromedioActivity::class.java)
+
+        val btnVolver = findViewById<Button>(R.id.volverBtn)
+
+        btnVolver.setOnClickListener {
+            val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
-
-        val btnSalario = findViewById<Button>(R.id.salarioBtn)
-        btnSalario.setOnClickListener {
-            val intent = Intent(this, SalarioActivity::class.java)
-            startActivity(intent)
-        }
-
-        val btnCalculadora = findViewById<Button>(R.id.calculadoraBtn)
-        btnCalculadora.setOnClickListener {
-            val intent = Intent(this, CalculadoraActivity::class.java)
-            startActivity(intent)
-        }
-
     }
 }

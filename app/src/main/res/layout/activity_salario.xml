@@ -8,13 +8,13 @@
     android:orientation="vertical"
     android:gravity="center"
     android:padding="16dp"
-    tools:context=".PromedioActivity">
+    tools:context=".SalarioActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="32dp"
-        android:text="Calcular Promedio"
+        android:text="Calcular Salario"
         android:textSize="20sp"
         android:textStyle="bold" />
 
@@ -23,5 +23,8 @@
         android:layout_width="164dp"
         android:layout_height="56dp"
         android:text="Volver al menú" />
+
+
+
 
 </androidx.appcompat.widget.LinearLayoutCompat>

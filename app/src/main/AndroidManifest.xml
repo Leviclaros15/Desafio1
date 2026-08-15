@@ -12,6 +12,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Desafio1">
         <activity
+            android:name=".CalculadoraActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SalarioActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PromedioActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
