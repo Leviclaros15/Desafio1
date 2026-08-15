@@ -108,7 +108,7 @@
                 android:layout_weight="1"
                 android:layout_margin="4dp"
                 android:text="@string/btn_dividir"
-                app:icon="@drawable/ic_dividir" />
+                app:icon="@drawable/ic_division" />
 
         </LinearLayout>
 
