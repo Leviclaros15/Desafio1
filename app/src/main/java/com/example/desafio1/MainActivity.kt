@@ -20,20 +20,20 @@ class MainActivity : AppCompatActivity() {
 
 
         }
-        val btnPromedio = findViewById<Button>(R.id.promedioBtn)
-        btnPromedio.setOnClickListener {
+        val btnEjercicio1 = findViewById<Button>(R.id.promedioBtn)
+        btnEjercicio1.setOnClickListener {
             val intent = Intent(this, PromedioActivity::class.java)
             startActivity(intent)
         }
 
-        val btnSalario = findViewById<Button>(R.id.salarioBtn)
-        btnSalario.setOnClickListener {
+        val btnEjercicio2 = findViewById<Button>(R.id.salarioBtn)
+        btnEjercicio2.setOnClickListener {
             val intent = Intent(this, SalarioActivity::class.java)
             startActivity(intent)
         }
 
-        val btnCalculadora = findViewById<Button>(R.id.calculadoraBtn)
-        btnCalculadora.setOnClickListener {
+        val btnEjercicio3 = findViewById<Button>(R.id.calculadoraBtn)
+        btnEjercicio3.setOnClickListener {
             val intent = Intent(this, CalculadoraActivity::class.java)
             startActivity(intent)
         }

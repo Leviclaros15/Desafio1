@@ -11,17 +11,29 @@
     <!-- ============ Pantalla Promedio ============ -->
     <string name="titulo_promedio">Calcular Promedio</string>
     <string name="label_nombre">Nombre del estudiante</string>
-    <string name="hint_nota1">Nota 1</string>
-    <string name="hint_nota2">Nota 2</string>
-    <string name="hint_nota3">Nota 3</string>
-    <string name="hint_nota4">Nota 4</string>
-    <string name="hint_nota5">Nota 5</string>
+    <string name="hint_nota1">Nota 1 (20%)</string>
+    <string name="hint_nota2">Nota 2 (20%)</string>
+    <string name="hint_nota3">Nota 3 (20%)</string>
+    <string name="hint_nota4">Nota 4 (20%)</string>
+    <string name="hint_nota5">Nota 5 (20%)</string>
     <string name="btn_calcular_promedio">CALCULAR</string>
     <string name="label_promedio">Promedio:</string>
     <string name="label_estado">Estado:</string>
     <string name="resultado_promedio">%.2f</string>
     <string name="estado_aprobado">Aprobado</string>
     <string name="estado_reprobado">Reprobado</string>
+    <!-- Errores de validación -->
+    <string name="error_nombre_vacio">Ingresa el nombre del estudiante</string>
+    <string name="error_nota_vacia">Todas las notas son obligatorias</string>
+    <string name="error_nota_invalida">Ingresa un número válido</string>
+    <string name="error_nota_rango">La nota debe estar entre 0 y 10</string>
+
+    <!-- Notificación -->
+    <string name="canal_notificaciones_id">canal_promedio</string>
+    <string name="canal_notificaciones_nombre">Resultados de Promedio</string>
+    <string name="notificacion_titulo">Resultado del Promedio</string>
+    <string name="notificacion_texto">%1$s obtuvo %2$s - %3$s</string>
+
 
     <!-- ============ Pantalla Salario ============ -->
     <string name="titulo_salario">Descuentos al Salario</string>
