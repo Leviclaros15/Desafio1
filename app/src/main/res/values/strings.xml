@@ -1,3 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Desafio1</string>
+
+    <!-- Pantalla principal -->
+    <string name="titulo_principal">Desafío Práctico 01</string>
+    <string name="btn_promedio">Promedio estudiante</string>
+    <string name="btn_salario">Descuentos al Salario</string>
+    <string name="btn_calculadora">Calculadora Básica</string>
+
+    <!-- Pantalla Promedio -->
+    <string name="titulo_promedio">Calcular Promedio</string>
+    <string name="hint_nota1">Nota 1</string>
+    <string name="hint_nota2">Nota 2</string>
+    <string name="hint_nota3">Nota 3</string>
+    <string name="btn_calcular_promedio">Calcular</string>
+    <string name="resultado_promedio">El promedio es: %.2f</string>
+
+    <!-- Pantalla Salario -->
+    <string name="titulo_salario">Descuentos al Salario</string>
+    <string name="hint_salario">Salario bruto</string>
+    <string name="btn_calcular_salario">Calcular Descuento</string>
+    <string name="resultado_salario">Salario neto: $%.2f</string>
+
+    <!-- Pantalla Calculadora -->
+    <string name="titulo_calculadora">Calculadora Básica</string>
+    <string name="hint_num1">Número 1</string>
+    <string name="hint_num2">Número 2</string>
+    <string name="btn_sumar">Sumar</string>
+    <string name="btn_restar">Restar</string>
+    <string name="btn_multiplicar">Multiplicar</string>
+    <string name="btn_dividir">Dividir</string>
+    <string name="resultado_calculadora">Resultado: %.2f</string>
+
+    <!-- Botón volver (común a las 3 pantallas) -->
+    <string name="btn_volver">Volver</string>
 </resources>
