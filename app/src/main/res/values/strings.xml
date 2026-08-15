@@ -35,6 +35,7 @@
 
 
     <!-- ============ Pantalla Salario ============ -->
+
     <string name="titulo_salario">Descuentos al Salario</string>
     <string name="hint_salario">Salario bruto</string>
     <string name="btn_calcular_salario">CALCULAR</string>
@@ -42,6 +43,17 @@
     <string name="label_salario_neto">Salario neto:</string>
     <string name="resultado_descuentos">$%.2f</string>
     <string name="resultado_salario_neto">$%.2f</string>
+
+    <!-- Salario -->
+    <string name="label_nombre_empleado">Nombre del empleado</string>
+    <string name="hint_nombre_empleado">Ej: Juan Pérez</string>
+    <string name="label_salario_bruto">Salario Bruto:</string>
+    <string name="label_renta">Renta:</string>
+    <string name="label_afp">AFP (7.25%):</string>
+    <string name="label_isss">ISSS (3%):</string>
+    <string name="error_salario_vacio">Ingresa el salario</string>
+    <string name="error_salario_invalido">Salario inválido</string>
+    <string name="error_salario_negativo">El salario debe ser positivo</string>
 
     <!-- ============ Pantalla Calculadora ============ -->
     <string name="titulo_calculadora">Calculadora Básica</string>
