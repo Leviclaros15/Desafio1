@@ -59,13 +59,26 @@
     <string name="titulo_calculadora">Calculadora Básica</string>
     <string name="hint_num1">Número 1</string>
     <string name="hint_num2">Número 2</string>
-    <string name="btn_sumar">Sumar</string>
-    <string name="btn_restar">Restar</string>
-    <string name="btn_multiplicar">Multiplicar</string>
-    <string name="btn_dividir">Dividir</string>
+    <string name="label_operacion">Selecciona la operación</string>
+    <string name="btn_sumar">Suma</string>
+    <string name="btn_restar">Resta</string>
+    <string name="btn_multiplicar">Multiplicación</string>
+    <string name="btn_dividir">División</string>
+    <string name="btn_exponente">Exponente</string>
+    <string name="btn_raiz">Raíz √</string>
+    <string name="btn_calcular_operacion">Calcular</string>
     <string name="label_resultado">Resultado:</string>
     <string name="resultado_calculadora">%.2f</string>
     <string name="error_division_cero">No se puede dividir entre cero</string>
+    <string name="error_num_vacio">Ingresa ambos números</string>
+    <string name="error_num_invalido">Ingresa números válidos</string>
+    <string name="error_raiz_negativa">No se puede sacar raíz de un número negativo</string>
+
+    <!-- Historial de Calculadora -->
+    <string name="btn_exportar_historial">Exportar historial</string>
+    <string name="historial_archivo">historial_calculadora.txt</string>
+    <string name="historial_exportado">Historial exportado a Descargas</string>
+    <string name="historial_error_exportar">Error al exportar el historial</string>
 
     <!-- ============ Común a todas las pantallas ============ -->
     <string name="btn_volver">Volver</string>

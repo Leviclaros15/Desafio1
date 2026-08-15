@@ -9,6 +9,7 @@
     tools:context=".PromedioActivity">
 
     <TextView
+        android:layout_marginTop="30sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/titulo_promedio"
@@ -17,6 +18,7 @@
         android:layout_marginBottom="16dp" />
 
     <TextView
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/label_nombre" />
@@ -29,6 +31,7 @@
         android:layout_marginBottom="16dp" />
 
     <TextView
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hint_nota1" />
@@ -40,6 +43,7 @@
         android:inputType="numberDecimal" />
 
     <TextView
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hint_nota2" />
@@ -51,6 +55,7 @@
         android:inputType="numberDecimal" />
 
     <TextView
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hint_nota3" />
@@ -62,6 +67,7 @@
         android:inputType="numberDecimal" />
 
     <TextView
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hint_nota4" />
@@ -73,6 +79,7 @@
         android:inputType="numberDecimal" />
 
     <TextView
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hint_nota5" />
@@ -85,6 +92,7 @@
         android:layout_marginBottom="16dp" />
 
     <Button
+        android:textStyle="bold"
         android:id="@+id/calcularBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -116,6 +124,7 @@
         android:layout_height="wrap_content" />
 
     <Button
+        android:textStyle="bold"
         android:id="@+id/volverBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

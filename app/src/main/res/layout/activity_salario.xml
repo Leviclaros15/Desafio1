@@ -9,6 +9,8 @@
     tools:context=".SalarioActivity">
 
     <TextView
+        android:layout_marginTop="30sp"
+
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/titulo_salario"
@@ -17,11 +19,13 @@
         android:layout_marginBottom="@dimen/margen_grande" />
 
     <TextView
+        android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/label_nombre_empleado" />
 
     <EditText
+        android:textStyle="italic"
         android:id="@+id/nombreEmpleadoEditText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +33,7 @@
         android:inputType="textPersonName"
         android:layout_marginBottom="@dimen/margen_grande" />
 
-    <TextView
+    <TextView    android:textStyle="bold"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/hint_salario" />
@@ -42,6 +46,7 @@
         android:layout_marginBottom="@dimen/margen_grande" />
 
     <Button
+        android:textStyle="bold"
         android:id="@+id/calcularSalarioBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -113,6 +118,7 @@
         android:textColor="@color/salario_neto_color" />
 
     <Button
+        android:textStyle="bold"
         android:id="@+id/volverBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

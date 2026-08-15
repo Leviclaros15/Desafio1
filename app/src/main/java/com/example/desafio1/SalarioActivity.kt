@@ -83,13 +83,13 @@ class SalarioActivity : AppCompatActivity() {
         salarioNetoTextView.text = formato.format(salarioNeto)
     }
 
-    // ISSS tiene un tope: 3% del salario, máximo sobre $1000 (ajusta el tope si tu tabla dice otro)
+
     private fun calcularIsss(salario: Double): Double {
         val base = if (salario > 1000.0) 1000.0 else salario
         return base * 0.03
     }
 
-    // Función aparte que calcula la Renta según la tabla de tramos
+
     private fun calcularRenta(salario: Double): Double {
         return when {
             salario <= 472.00 -> {

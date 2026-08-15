@@ -28,7 +28,6 @@ class PromedioActivity : AppCompatActivity() {
     private lateinit var promedioTextView: TextView
     private lateinit var estadoTextView: TextView
 
-    // Ponderación de cada nota (debe sumar 1.0)
     private val peso1 = 0.20
     private val peso2 = 0.20
     private val peso3 = 0.20
